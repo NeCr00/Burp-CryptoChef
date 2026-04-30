@@ -8,9 +8,6 @@ auditing mobile apps and SDKs that re-encrypt every payload over HTTPS.
 Once configured, an encrypted API audits like a plain one: Repeater edits
 plaintext, Scanner scans plaintext, Logger logs plaintext, and the wire
 keeps carrying valid ciphertext.
-
-Tested on **Burp Suite Professional 2024.x**, **Java 17/21**.
-
 ---
 
 ## Mental model
@@ -156,18 +153,6 @@ project file. Full exception detail goes to *Extensions → Output*.
 
 The extension never blocks traffic. On any failure the original bytes
 reach their destination and the message is annotated.
-
----
-
-## Build & test
-
-```bash
-gradle test          # unit + integration tests
-gradle shadowJar     # → build/libs/CryptoChef-1.0.0.jar
-```
-
-Java 17 or newer is required.
-
 ---
 
 ## License
