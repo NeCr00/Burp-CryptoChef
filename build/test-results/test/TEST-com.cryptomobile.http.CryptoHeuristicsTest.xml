@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cryptomobile.http.CryptoHeuristicsTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-04-30T13:04:15.070Z" hostname="NeCr0s-MacBook-Pro.local" time="0.023">
+  <properties/>
+  <testcase name="short_random_ascii_is_not_base64_blob()" classname="com.cryptomobile.http.CryptoHeuristicsTest" time="0.0"/>
+  <testcase name="jwe_compact_is_ciphertext_ish()" classname="com.cryptomobile.http.CryptoHeuristicsTest" time="0.001"/>
+  <testcase name="empty_is_plaintext()" classname="com.cryptomobile.http.CryptoHeuristicsTest" time="0.0"/>
+  <testcase name="jws_compact_is_ciphertext_ish()" classname="com.cryptomobile.http.CryptoHeuristicsTest" time="0.001"/>
+  <testcase name="json_array_is_plaintext()" classname="com.cryptomobile.http.CryptoHeuristicsTest" time="0.0"/>
+  <testcase name="soap_envelope_is_plaintext()" classname="com.cryptomobile.http.CryptoHeuristicsTest" time="0.015"/>
+  <testcase name="url_encoded_form_is_plaintext()" classname="com.cryptomobile.http.CryptoHeuristicsTest" time="0.0"/>
+  <testcase name="invalid_utf8_starting_with_brace_is_not_json()" classname="com.cryptomobile.http.CryptoHeuristicsTest" time="0.0"/>
+  <testcase name="json_object_is_plaintext()" classname="com.cryptomobile.http.CryptoHeuristicsTest" time="0.0"/>
+  <testcase name="base64_blob_is_ciphertext_ish()" classname="com.cryptomobile.http.CryptoHeuristicsTest" time="0.001"/>
+  <testcase name="plain_readable_text_is_plaintext()" classname="com.cryptomobile.http.CryptoHeuristicsTest" time="0.0"/>
+  <testcase name="xml_doc_is_plaintext()" classname="com.cryptomobile.http.CryptoHeuristicsTest" time="0.002"/>
+  <testcase name="high_entropy_binary_is_ciphertext_ish()" classname="com.cryptomobile.http.CryptoHeuristicsTest" time="0.0"/>
+  <testcase name="invalid_utf8_is_not_plaintext()" classname="com.cryptomobile.http.CryptoHeuristicsTest" time="0.0"/>
+  <testcase name="malformed_json_is_not_accepted_as_json()" classname="com.cryptomobile.http.CryptoHeuristicsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

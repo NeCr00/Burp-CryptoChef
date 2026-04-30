@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cryptomobile.crypto.AesGcmStepTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-04-30T13:04:14.530Z" hostname="NeCr0s-MacBook-Pro.local" time="0.006">
+  <properties/>
+  <testcase name="nist_gcm_test_case_14()" classname="com.cryptomobile.crypto.AesGcmStepTest" time="0.003"/>
+  <testcase name="tampered_tag_is_caught()" classname="com.cryptomobile.crypto.AesGcmStepTest" time="0.002"/>
+  <testcase name="random_nonce_round_trip()" classname="com.cryptomobile.crypto.AesGcmStepTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

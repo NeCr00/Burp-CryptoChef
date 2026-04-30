@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cryptomobile.crypto.AesCbcStepTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-04-30T13:04:14.486Z" hostname="NeCr0s-MacBook-Pro.local" time="0.041">
+  <properties/>
+  <testcase name="bad_padding_is_reported()" classname="com.cryptomobile.crypto.AesCbcStepTest" time="0.026"/>
+  <testcase name="round_trip_random_iv_mode()" classname="com.cryptomobile.crypto.AesCbcStepTest" time="0.002"/>
+  <testcase name="rejects_wrong_key_size()" classname="com.cryptomobile.crypto.AesCbcStepTest" time="0.001"/>
+  <testcase name="nist_sp800_38a_f25_block1()" classname="com.cryptomobile.crypto.AesCbcStepTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

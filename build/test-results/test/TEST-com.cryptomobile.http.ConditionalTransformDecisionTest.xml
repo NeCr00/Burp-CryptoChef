@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cryptomobile.http.ConditionalTransformDecisionTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2026-04-30T13:04:14.984Z" hostname="NeCr0s-MacBook-Pro.local" time="0.086">
+  <properties/>
+  <testcase name="short_noise_is_neither_blob_nor_structured_text_so_not_plaintext()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.001"/>
+  <testcase name="hasNote_tolerates_multiple_whitespace()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.001"/>
+  <testcase name="hasNote_rejects_empty_needle()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.0"/>
+  <testcase name="valid_base64_blob_triggers_decrypt_path()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.001"/>
+  <testcase name="valid_jwe_five_part_compact_triggers_decrypt_path()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.0"/>
+  <testcase name="appendNote_dedupes_repeated_error_class_tags()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.007"/>
+  <testcase name="plaintext_json_passes_through_untouched()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.006"/>
+  <testcase name="hasNote_whole_token_match_not_substring()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.0"/>
+  <testcase name="appendNote_dedupes_repeated_static_tokens()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.0"/>
+  <testcase name="errorTag_caps_long_class_names()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.0"/>
+  <testcase name="appendNote_cap_truncates_oversized_first_token()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.0"/>
+  <testcase name="appendNote_caps_total_length()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.032"/>
+  <testcase name="errorTag_handles_null_input()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.0"/>
+  <testcase name="truncate_caps_long_messages()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.001"/>
+  <testcase name="simulated_runaway_re_processing_does_not_grow_notes()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.031"/>
+  <testcase name="appendNote_handles_null_and_empty_inputs()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.0"/>
+  <testcase name="json_wrapped_ciphertext_envelope_is_classified_as_plaintext()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.001"/>
+  <testcase name="empty_body_is_treated_as_plaintext_so_skip()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.0"/>
+  <testcase name="truncate_handles_null_and_no_message()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.001"/>
+  <testcase name="errorTag_is_short_and_class_name_based()" classname="com.cryptomobile.http.ConditionalTransformDecisionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cryptomobile.crypto.RsaOaepHybridStepTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-04-30T13:04:14.746Z" hostname="NeCr0s-MacBook-Pro.local" time="0.225">
+  <properties/>
+  <testcase name="round_trip_rsa_oaep_cbc()" classname="com.cryptomobile.crypto.RsaOaepHybridStepTest" time="0.06"/>
+  <testcase name="round_trip_rsa_oaep_gcm()" classname="com.cryptomobile.crypto.RsaOaepHybridStepTest" time="0.078"/>
+  <testcase name="missing_private_key_fails_cleanly()" classname="com.cryptomobile.crypto.RsaOaepHybridStepTest" time="0.085"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

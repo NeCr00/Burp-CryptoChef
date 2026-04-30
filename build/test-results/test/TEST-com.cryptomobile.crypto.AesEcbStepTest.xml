@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cryptomobile.crypto.AesEcbStepTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-30T13:04:14.528Z" hostname="NeCr0s-MacBook-Pro.local" time="0.001">
+  <properties/>
+  <testcase name="nist_sp800_38a_f15_block1()" classname="com.cryptomobile.crypto.AesEcbStepTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

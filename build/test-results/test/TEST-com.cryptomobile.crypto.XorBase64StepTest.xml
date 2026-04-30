@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cryptomobile.crypto.XorBase64StepTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-04-30T13:04:14.972Z" hostname="NeCr0s-MacBook-Pro.local" time="0.003">
+  <properties/>
+  <testcase name="base64_url_without_padding()" classname="com.cryptomobile.crypto.XorBase64StepTest" time="0.001"/>
+  <testcase name="base64_tolerant_decoder_accepts_whitespace_and_no_padding()" classname="com.cryptomobile.crypto.XorBase64StepTest" time="0.0"/>
+  <testcase name="base64_standard_round_trip()" classname="com.cryptomobile.crypto.XorBase64StepTest" time="0.0"/>
+  <testcase name="xor_truncate_mode()" classname="com.cryptomobile.crypto.XorBase64StepTest" time="0.001"/>
+  <testcase name="xor_repeat_mode()" classname="com.cryptomobile.crypto.XorBase64StepTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

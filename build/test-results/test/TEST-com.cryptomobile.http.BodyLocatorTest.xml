@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cryptomobile.http.BodyLocatorTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-04-30T13:04:14.976Z" hostname="NeCr0s-MacBook-Pro.local" time="0.008">
+  <properties/>
+  <testcase name="trim_does_not_touch_random_iv_prepended_aes_blob()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.001"/>
+  <testcase name="splice_start_greater_than_end_clamps()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.001"/>
+  <testcase name="splice_roundtrip_identity_when_replacement_equals_range()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.0"/>
+  <testcase name="splice_whole_body_replaces_entirely()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.0"/>
+  <testcase name="splice_empty_replacement_deletes_range()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.001"/>
+  <testcase name="trim_strips_trailing_lf_from_jwe_compact()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.0"/>
+  <testcase name="trim_strips_trailing_lf_from_base64_blob()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.0"/>
+  <testcase name="trim_strips_multiple_trailing_newlines()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.0"/>
+  <testcase name="trim_preserves_interior_newlines()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.0"/>
+  <testcase name="trim_does_not_touch_binary_body_ending_in_0x0A()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.0"/>
+  <testcase name="trim_strips_trailing_crlf_from_base64_blob()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.0"/>
+  <testcase name="splice_longer_replacement_grows_output()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.0"/>
+  <testcase name="trim_leaves_textual_body_with_no_trailing_newline()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.001"/>
+  <testcase name="splice_oob_indices_are_clamped()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.0"/>
+  <testcase name="splice_middle_preserves_surroundings()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.0"/>
+  <testcase name="trim_keeps_utf8_multibyte_body_intact()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.0"/>
+  <testcase name="trim_returns_input_unchanged_on_empty_or_null()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.0"/>
+  <testcase name="trim_handles_textual_body_that_is_only_newlines()" classname="com.cryptomobile.http.BodyLocatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
