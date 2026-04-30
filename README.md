@@ -1,14 +1,11 @@
 # Burp - CryptoChef
 
-> A Burp Suite extension for transparent application-layer crypto.
-
 CryptoChef decrypts and re-encrypts HTTP request and response bodies that
 use application-layer encryption on top of TLS — the pattern you hit
 auditing mobile apps and SDKs that re-encrypt every payload over HTTPS.
 Once configured, an encrypted API audits like a plain one: Repeater edits
 plaintext, Scanner scans plaintext, Logger logs plaintext, and the wire
 keeps carrying valid ciphertext.
----
 
 ## Mental model
 
